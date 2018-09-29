@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Test]]></title>
-    <url>%2Fpost%2F784dd132.html</url>
-    <content type="text"><![CDATA[这是一个测试页，随便写点啥都行Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus reiciendis in debitis voluptatem deserunt, sequi dolorem quia ad eligendi laborum soluta cumque commodi eos culpa ut accusantium fugit maxime error!]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-        <tag>Demo</tag>
-      </tags>
+    <title><![CDATA[新的开始]]></title>
+    <url>%2Fpost%2Fb585e161.html</url>
+    <content type="text"><![CDATA[现在所有的一切都不重要，一切重新开始啦！希望能够勇敢地走下去，不管前方风雨交加还是阳光明媚，勿忘初心，勿忘。]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
