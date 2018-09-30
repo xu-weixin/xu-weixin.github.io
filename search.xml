@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[如何将Hexo项目迁移到其他电脑]]></title>
+    <url>%2Fpost%2Fa45b65d.html</url>
+    <content type="text"><![CDATA[我们知道，使用 Github+hexo 搭建一个个人博客确实需要花不少时间的，我们搭好博客后使用的挺好，但是如果我们有一天电脑突然坏了，或者换了系统，那么我们怎么使用 hexo 再发布文章到个人博客呢？ 如果我们还是按照之间我们总结的教程再次搭建一个博客，然后修改代码更换 hexo 主题等，各种配置特别繁琐，那么有没有一种方便的方法，直接使用我们之前搭建好的博客的源文件呢？ 源文件拷贝将你原来电脑上个人博客目录下必要文件拷到你的新电脑上（比如F:/Blog目录下），注意无需拷全部，只拷如下几个目录：12345_config.yml package.json scaffolds/ source/ themes/ 安装 hexo在 cmd 下输入下面指令安装 hexo：npm install hexo-cli -g 进入 F:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块npm install 测试这时候使用hexo clean &amp;&amp; hexo g &amp;&amp; hexo s基本可以看到你新添加的文章了。 部署使用下面指令进行部署hexo clean &amp;&amp; hexo g &amp;&amp; hexo d]]></content>
+      <categories>
+        <category>Hexo技巧</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[新的开始]]></title>
     <url>%2Fpost%2Fb585e161.html</url>
     <content type="text"><![CDATA[现在所有的一切都不重要，一切重新开始啦！希望能够勇敢地走下去，不管前方风雨交加还是阳光明媚，勿忘初心，勿忘。]]></content>

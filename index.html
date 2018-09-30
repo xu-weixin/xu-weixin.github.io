@@ -61,7 +61,13 @@
 <link href="/css/main.css?v=6.4.1" rel="stylesheet" type="text/css" />
 
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=6.4.1">
 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico?v=6.4.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico?v=6.4.1">
 
 
 
@@ -332,6 +338,170 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/post/a45b65d.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xu Weixin">
+      <meta itemprop="description" content="A mini blog to think and write">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weixin's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/a45b65d.html" itemprop="url">
+                  如何将Hexo项目迁移到其他电脑
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-09-30 09:44:03 / 修改时间：09:50:27" itemprop="dateCreated datePublished" datetime="2018-09-30T09:44:03+08:00">2018-09-30</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Hexo技巧/" itemprop="url" rel="index"><span itemprop="name">Hexo技巧</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>我们知道，使用 Github+hexo 搭建一个个人博客确实需要花不少时间的，我们搭好博客后使用的挺好，但是如果我们有一天电脑突然坏了，或者换了系统，那么我们怎么使用 hexo 再发布文章到个人博客呢？</p>
+<p>如果我们还是按照之间我们总结的教程再次搭建一个博客，然后修改代码更换 hexo 主题等，各种配置特别繁琐，那么有没有一种方便的方法，直接使用我们之前搭建好的博客的源文件呢？</p>
+<h4 id="源文件拷贝"><a href="#源文件拷贝" class="headerlink" title="源文件拷贝"></a>源文件拷贝</h4><p>将你原来电脑上个人博客目录下必要文件拷到你的新电脑上（比如F:/Blog目录下），注意无需拷全部，只拷如下几个目录：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">_config.yml</span><br><span class="line"> package.json</span><br><span class="line"> scaffolds/</span><br><span class="line"> source/</span><br><span class="line"> themes/</span><br></pre></td></tr></table></figure></p>
+<h4 id="安装-hexo"><a href="#安装-hexo" class="headerlink" title="安装 hexo"></a>安装 hexo</h4><p>在 cmd 下输入下面指令安装 hexo：<br><code>npm install hexo-cli -g</code></p>
+<h4 id="进入-F-Blog-目录（你拷贝到新电脑的目录），输入下面指令安装相关模块"><a href="#进入-F-Blog-目录（你拷贝到新电脑的目录），输入下面指令安装相关模块" class="headerlink" title="进入 F:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块"></a>进入 F:/Blog 目录（你拷贝到新电脑的目录），输入下面指令安装相关模块</h4><p><code>npm install</code></p>
+<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><p>这时候使用<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code>基本可以看到你新添加的文章了。</p>
+<h4 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h4><p>使用下面指令进行部署<br><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/post/b585e161.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -378,7 +548,7 @@
                 
               
 
-              <time title="创建时间：2018-09-29 16:42:14 / 修改时间：16:46:18" itemprop="dateCreated datePublished" datetime="2018-09-29T16:42:14+08:00">2018-09-29</time>
+              <time title="创建时间：2018-09-29 16:42:14 / 修改时间：16:46:34" itemprop="dateCreated datePublished" datetime="2018-09-29T16:42:14+08:00">2018-09-29</time>
             
 
             
@@ -645,14 +815,40 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
               
 
               
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
               
             </nav>
           
